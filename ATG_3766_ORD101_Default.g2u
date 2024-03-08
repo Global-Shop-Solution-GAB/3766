@@ -1,0 +1,25 @@
+﻿Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Coded by: JLH
+'Project Start Date: 8/2/2011
+'Hooks:
+'  36680
+
+'Set "Exclude Consignment Lines" check box to checked by default
+V.Passed.000008.Set(Y)
+
+Program.Sub.Main.End
+
+Program.Sub.Comments.Start
+${$0$}$ATG_3766_ORD101_Default$}$JCT$}$4/11/2016
+${$1$}$$}$$}$0$}$36680$}$Populate Hook$}$4/11/2016 9:02:18 AM$}$(Program: ORD101; Screen: OES0101B)
+${$5$}$2.0.0.0$}$2
+${$6$}$Angel$}$20220228142449460$}$KXl0r/FkrMYwb/r4ukQ87aOTsTN7X2ea0j7BhBde+26ccKANySypY3USKDAFtQRsevMPLIM3Vh4=
+Program.Sub.Comments.End
+
